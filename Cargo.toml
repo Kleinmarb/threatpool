@@ -1,0 +1,12 @@
+[package]
+name = "threatpool"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "stripped version of threadpool crate for low dependency count"
+homepage = "https://github.com/Kleinmarb/threatpool"
+documentation = "https://docs.rs/threatpool/0.1.0/threatpool"
+repository = "https://github.com/Kleinmarb/threatpool"
+readme = "README.md"
+
+[dependencies]
