@@ -1,12 +1,22 @@
 [package]
 name = "threatpool"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-license = "MIT"
-description = "stripped version of threadpool crate for low dependency count"
+description = "Threatpool is a simple thread pool"
+authors = ["Kleinmarb <kleinmarb@skiff.com>"]
+keywords = ["threadpool", "thread", "parallelism"]
+license = "MIT OR Apache-2.0"
 homepage = "https://github.com/Kleinmarb/threatpool"
-documentation = "https://docs.rs/threatpool/0.1.0/threatpool"
+documentation = "https://docs.rs/threatpool"
 repository = "https://github.com/Kleinmarb/threatpool"
 readme = "README.md"
+rust-version = "1.75.0"
 
 [dependencies]
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = "fat"
+incremental = false
+codegen-units = 1

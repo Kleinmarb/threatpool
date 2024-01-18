@@ -1,4 +1,13 @@
-this is a threadpool library highly inspired by https://github.com/rust-threadpool/rust-threadpool,
-please check that out it's way better than my version this is only for low dependency and low compile time for 
-my big project https://github.com/Kleinmarb/snapapi. It's just a stripped version (bader version) without the num_cpus 
-dependency and the documentation and some code I don't need. 
+# Threatpool
+
+Threatpool is a simple thread pool which focuses on simplicity,
+it's the default thread pool for the [byzantium libDBMS](https://docs.rs/byzantium/*/byzantium/).
+
+## License
+
+This project is licensed under either of
+
+- Apache License, Version 2.0, (LICENSE-APACHE or https://www.apache.org/licenses/LICENSE-2.0)
+- MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT)
+
+at your option.

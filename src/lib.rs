@@ -1,3 +1,18 @@
+//! Threatpool is a simple thread pool with focus on simplicity.
+//!
+//! ## Example
+//!
+//! ```
+//! use threatpool::ThreadPool;
+//!
+//! let pool = ThreadPool::new(4);
+//!
+//! pool.execute(|| {
+//!     // Simulate some task
+//!     println!("Hello, World");
+//! });
+//! ```
+
 use std::thread;
 use std::sync::{mpsc, Arc, Mutex};
 
