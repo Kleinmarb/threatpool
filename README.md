@@ -1,7 +1,6 @@
 # Threatpool
 
-Threatpool is a simple thread pool which focuses on simplicity,
-it's the default thread pool for the [byzantium libDBMS](https://docs.rs/byzantium/*/byzantium/).
+Threatpool is a simple thread pool which focuses on simplicity.
 
 ## License
 
